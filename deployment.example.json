@@ -1,0 +1,11 @@
+{
+  "asset_kind": "instrument",
+  "configuration": {
+    "authority_source": "CONFIGURE-ME",
+    "jurisdiction": "CONFIGURE-ME",
+    "organization": "Example Organization",
+    "settlement_policy": "CONFIGURE-ME"
+  },
+  "note": "Replace CONFIGURE-ME values with organization-specific facts before deployment.",
+  "package": "finance"
+}

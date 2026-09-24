@@ -1,0 +1,37 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "CreDtTm": "descriptor.created_at",
+        "MsgId": "descriptor.message_id",
+        "TxId": "descriptor.transaction_id"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "ISO-20022"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "11": "descriptor.cl_ord_id",
+        "17": "descriptor.exec_id",
+        "55": "descriptor.symbol"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "FIX"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "lei": "descriptor.legal_entity_identifier"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "LEI"
+    }
+  ],
+  "package": "finance"
+}

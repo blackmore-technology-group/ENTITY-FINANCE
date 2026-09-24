@@ -1,0 +1,121 @@
+{
+  "package": "finance",
+  "templates": {
+    "instrument": {
+      "asset_kind": "instrument",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "COMMERCIALIZE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "FINANCIAL_INSTRUMENT",
+      "package": "finance",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:finance@1.0"
+      ],
+      "required_evidence_types": [
+        "PAYMENT_RECORD",
+        "REGISTRY_RECORD",
+        "DOCUMENT"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "market_dataset": {
+      "asset_kind": "market_dataset",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "COMMERCIALIZE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DATASET",
+      "package": "finance",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:finance@1.0"
+      ],
+      "required_evidence_types": [
+        "PAYMENT_RECORD",
+        "REGISTRY_RECORD",
+        "DOCUMENT"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "settlement_record": {
+      "asset_kind": "settlement_record",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "COMMERCIALIZE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "finance",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:finance@1.0"
+      ],
+      "required_evidence_types": [
+        "PAYMENT_RECORD",
+        "REGISTRY_RECORD",
+        "DOCUMENT"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "trade_record": {
+      "asset_kind": "trade_record",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "COMMERCIALIZE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "finance",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:finance@1.0"
+      ],
+      "required_evidence_types": [
+        "PAYMENT_RECORD",
+        "REGISTRY_RECORD",
+        "DOCUMENT"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    }
+  }
+}
